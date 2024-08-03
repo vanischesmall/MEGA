@@ -1,11 +1,3 @@
-from serial import Serial, STOPBITS_ONE
-from RobotAPI import RobotAPI
-
-class Package:
-    @staticmethod
-    def encode(self, ...) -> ...:
-        ...
-
 class MEGA:
     def __init__(self) -> None:
         self.arduino_mega_uart = Serial(
